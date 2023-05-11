@@ -41,12 +41,6 @@ fun withHerpDerp2() {
     derp()
 }
 
-context(HerpDerp)
-fun contextualizedHigherOrderFunction(f: HerpDerp.() -> Unit) {
-//    f()
-//    this.f()
-}
-
 fun main() {
     val herp = object : Herp {
         override fun herp() {
